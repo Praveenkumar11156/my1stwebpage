@@ -1,0 +1,59 @@
+/* .animated-border {
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #4a47a3, #adadad);
+    animation: border-animation 2s ease-in-out infinite;
+}
+
+@keyframes border-animation {
+    0% {
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(74, 71, 133, 0.7);
+    }
+    50% {
+        border-radius: 0;
+        box-shadow: 0 0 0 50px rgba(74, 71, 163, 0);
+    }
+    100% {
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(74, 71, 133, 0.7);
+    }
+}
+
+img{
+    border-radius: solid black 5%;
+} */
+
+body {
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F927-9270318_rocket-animation-timeline-cartoon.png&imgrefurl=https%3A%2F%2Fwww.seekpng.com%2Fipng%2Fu2y3a9q8w7t4e6r5_rocket-animation-timeline-cartoon%2F&tbnid=i9jk8RqC9KGACM&vet=12ahUKEwjRzqmGl7v9AhXqgGMGHSNuASUQMygAegUIARDEAQ..i&docid=oGpe8tse9U_RyM&w=820&h=448&q=timeline%20cartoon%20png%20images&hl=en&ved=2ahUKEwjRzqmGl7v9AhXqgGMGHSNuASUQMygAegUIARDEAQ);
+    background-size: cover;
+    animation: background-animation 20s ease-in-out infinite;
+}
+
+@keyframes background-animation {
+    0% {
+        background-image: url(./ani\ 1.png);
+        width: 100%;
+        
+        
+    }
+    25% {
+        background-image: url(./ani\ 2.png);
+        width: 100%;
+        
+    }
+    50% {
+        background-image: url(./ani\ 3.png);
+        width: 100%;
+        
+    }
+    75% {
+        background-image: url(./ani\ 4.jpg);
+        width: 100%;
+        
+    }
+    100% {
+        background-image: url(./ani\ 5.jpg);
+        width: 100%;
+        
+    }
+}
